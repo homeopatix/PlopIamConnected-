@@ -20,8 +20,8 @@ function CreateLocalizationInfo()
 		Strings.PluginText1 = "Gib den Charakternamen ein";
 		Strings.PluginText2 = "Hinzuf\195\188gen";
 		Strings.PluginText3 = "Dein Freund";
-		Strings.PluginText4 = "Bin gerade online gegangen bei ";
-		Strings.PluginText5 = "Ein Sippenmitglied";
+		Strings.PluginText4 = "ist online seit ";
+		Strings.PluginText5 = "Das Sippenmitglied";
 		Strings.PluginEscEnable = "Escape-Taste aktiviert";
 		Strings.PluginEscDesable = "Escape-Taste deaktiviert";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
