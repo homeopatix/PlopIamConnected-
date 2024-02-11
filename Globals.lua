@@ -27,7 +27,7 @@ function CreateLocalizationInfo()
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
 		Strings.PluginDelete = "gel\195\182scht";
-		Strings.PluginDeleteAll = "Alle Freunde gel\195\182scht";
+		Strings.PluginDeleteAll = "Alle Freunde gel\195\182scht!";
 		Strings.PluginAdded = "hinzugef\195\188gt";
 		Strings.PluginList = "Liste der Freunde";
 		Strings.PluginWindowShow = "Fenster wird angezeigt";
