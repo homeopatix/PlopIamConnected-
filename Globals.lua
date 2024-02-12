@@ -17,30 +17,30 @@ function CreateLocalizationInfo()
 	if Turbine.Engine.GetLanguage() == Turbine.Language.German then
 		Strings.PluginName = "PlopIamConnected";
 		Strings.PluginText = "Von Homeopatix";
-		Strings.PluginText1 = "Geben Sie den Spielernamen ein";
-		Strings.PluginText2 = "Geben Sie einen neuen Freund ein";
+		Strings.PluginText1 = "Gib den Charakternamen ein";
+		Strings.PluginText2 = "Hinzuf\195\188gen";
 		Strings.PluginText3 = "Dein Freund";
-		Strings.PluginText4 = "Bin gerade online gegangen bei ";
-		Strings.PluginText5 = "Dein Gildenkamerad";
+		Strings.PluginText4 = "ist online seit ";
+		Strings.PluginText5 = "Das Sippenmitglied";
 		Strings.PluginEscEnable = "Escape-Taste aktiviert";
 		Strings.PluginEscDesable = "Escape-Taste deaktiviert";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
-		Strings.PluginDelete = "Gel\195\182scht";
-		Strings.PluginDeleteAll = "Alle Freunde gel\195\182scht";
+		Strings.PluginDelete = "gel\195\182scht";
+		Strings.PluginDeleteAll = "Alle Freunde gel\195\182scht!";
 		Strings.PluginAdded = "hinzugef\195\188gt";
 		Strings.PluginList = "Liste der Freunde";
-		Strings.PluginWindowShow = "Schaufenster.";
-		Strings.PluginWindowHide = "Verstecke das Fenster.";
+		Strings.PluginWindowShow = "Fenster wird angezeigt";
+		Strings.PluginWindowHide = "Fenster wird ausgeblendet";
 		Strings.PluginHelp = " *** PlopIamConnected Hilfe ***\n\n" ..
-		"/Plop show zeigt das Fenster an\n" ..
-		"/Plop hide verstecke das Fenster\n" ..
-		"/Plop list zeige allen Freunden\n" ..
-		"/Plop clearall l\195\182sche alle Freunde\n" ..
-		"/Plop alt - ALT-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
-		"/Plop esc - ESC-Taste aktivieren / deaktivieren.\n" ..
-		"/Plop clear <freundname> l\195\182sche <freundname>\n" ..
-		"/Plop toggle - Fenster ein-oder ausblenden\n\n";
+		"/plop show - Zeigt das Fenster an.\n" ..
+		"/plop hide - Blendet das Fenster aus.\n" ..
+		"/plop list - Zeigt eine Liste der Freunde an.\n" ..
+		"/plop clearall - L\195\182scht alle Freunde.\n" ..
+		"/plop alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+		"/plop esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+		"/plop clear <name> - L\195\182scht den entsprechenden Freund.\n" ..
+		"/plop toggle - Fenster anzeigen/ausblenden.\n\n";
 
 elseif Turbine.Engine.GetLanguage() == Turbine.Language.French then
 		Strings.PluginName = "PlopIamConnected";
