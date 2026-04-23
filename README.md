@@ -36,7 +36,7 @@ ou ajouter le nom d'un ami de guilde
 |--------|------------------|
 | /Plop show	| Montre la fenêtre principale |
 | /Plop hide	| Cache la fenêtre principale |
-| /Plop list	| BAffiche la liste de vos amis |
+| /Plop list	| Affiche la liste de vos amis |
 | /Plop clearall	| Supprime tous les amis |
 | /Plop clear naomdelami	| Supprime l'ami défini |
 
