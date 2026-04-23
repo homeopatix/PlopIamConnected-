@@ -2,7 +2,7 @@
 <img width="1536" height="1024" alt="homeo_plugins" src="https://github.com/user-attachments/assets/1b3f50fe-a4c1-4d38-9215-a1f839d7a76b" />
 
 
-# AltHolic – LOTRO Plugin
+# PlopIamConnected – LOTRO Plugin
 
 ![Lua](https://img.shields.io/badge/Lua-Plugin-blue)
 ![LOTRO](https://img.shields.io/badge/Game-LOTRO-darkgreen)
@@ -10,25 +10,15 @@
 ![License](https://img.shields.io/badge/license-Custom-lightgrey)
 
 AltHolic est un plugin **Lua pour The Lord of the Rings Online (LOTRO)**  
-permettant d'avoir une **vue centralisée et rapide de tous vos personnages (alts)** :
-inventaires, équipements, coffre, stockage partagé, statistiques, réputations et quêtes.
+PlopIamConnected est un petit plugin pour avoir une vue agrandie de vos amis quand il se connecte
+Entrer le nom des amis que vous souhaiter suivre qui se trouve dans votre liste d'ami
+ou ajouter le nom d'un ami de guilde
 
 ---
 
 # 🚀 Fonctionnalités
 
-✔️ Vue multi-personnages  
-✔️ Gestion multi-serveurs  
-✔️ Porte-monnaie  
-✔️ Inventaire (sac)  
-✔️ Coffre personnel  
-✔️ Stockage partagé  
-✔️ Équipement  
-✔️ Statistiques  
-✔️ Réputations  
-✔️ Quêtes épiques  
-✔️ Recherche globale  
-✔️ Synchronisation automatique à la connexion/déconnexion  
+✔️ Affiche un pop up lorsque votre ami se connecte
 
 ---
 
@@ -44,24 +34,79 @@ inventaires, équipements, coffre, stockage partagé, statistiques, réputations
 
 | Commande | Description | 
 |--------|------------------|
-| /Alt show	| Montre la fenêtre principale |
-| /Alt hide	| Cache la fenêtre principale |
-| /Alt toggle	| Bascule l'affichage de la fenêtre |
-| /Alt esc	| Active ou désactive la touche Escape |
-| /Alt options	| Affiche la fenêtre d’options |
-| /Alt optionsbar	| Affiche la fenêtre d’options de la barre |
-| /Alt icon	| Affiche ou masque l’icône |
-| /Alt alt	| Active ou désactive la touche ALT pour déplacer l’icône |
-| /Alt delete all	| Efface toutes les entrées |
-| /Alt delete NomDuPerso	| Efface le personnage spécifié |
+| /Plop show	| Montre la fenêtre principale |
+| /Plop hide	| Cache la fenêtre principale |
+| /Plop list	| BAffiche la liste de vos amis |
+| /Plop clearall	| Supprime tous les amis |
+| /Plop clear naomdelami	| Supprime l'ami défini |
 
----
+------------------------------------------------------------------------
 
 # 🧩 Installation
 
-## 📂 Windows (FR)
+1.  Télécharger le ZIP depuis GitHub ou LOTROInterface.
+2.  Extraire le dossier.
+3.  Copier le dossier `PlopIamConnected` dans :
 
-1. Télécharger le ZIP depuis GitHub.
-2. Extraire le dossier.
-3. Copier le dossier `AltHolic` dans : C:\Documents\The Lord of the Rings Online\Plugins\Homeopatix
+    Documents\The Lord of the Rings Online\Plugins\Homeopatix
+
+4.  En jeu :
+    
+    /plugins load plopiamconnected
+
+------------------------------------------------------------------------
+
+# 💾 Données & Synchronisation
+
+Les paramètres sont sauvegardés automatiquement à chaque
+connexion/déconnexion.
+
+Les fichiers sont enregistrés dans :
+
+    Documents\The Lord of the Rings Online\PluginData\<Compte>\<Serveur>\<Personnage>
+
+------------------------------------------------------------------------
+
+# 🏗️ Architecture
+
+-   Langage : **Lua**
+-   Type : Plugin LOTRO
+-   Stockage : Données locales (PluginData)
+-   Compatibilité : Toutes versions LOTRO récentes
+
+------------------------------------------------------------------------
+
+# ❗ Requirements / Besoins / Bedürfnisse
+
+## 🇫🇷 !!! Besoins !!!
+
+Vous devez avoir installé le package **Turbine**.\
+Vous pouvez le télécharger à cette adresse : **[ICI](https://www.lotrointerface.com/downloads/info1064-TurbineUtilities.html)**
+
+------------------------------------------------------------------------
+
+## 🇬🇧 !!! Needs !!!
+
+You need to have the **Turbine package** installed.\
+You can download it at this address: **[HERE](https://www.lotrointerface.com/downloads/info1064-TurbineUtilities.html)**
+
+------------------------------------------------------------------------
+
+## 🇩🇪 !!! Bedürfnisse !!!
+
+Sie müssen das **Turbine-Paket** installiert haben.\
+Sie können es unter dieser Adresse herunterladen: **[HIER](https://www.lotrointerface.com/downloads/info1064-TurbineUtilities.html)**
+
+------------------------------------------------------------------------
+
+# 📜 License
+
+This project is licensed under the MIT License -- see the LICENSE file
+for details.
+
+------------------------------------------------------------------------
+
+# 👤 Auteur
+
+Homeopatix
 
