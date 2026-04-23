@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>1136</Id>
+  <Name>PlopIamConnected</Name>
+  <Version>1.05</Version>
+  <Author>Homeopatix</Author>
+ <Description>
+DESCRIPTION (Francais)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+PlopIamConnected est un petit plugin pour avoir une vue agrandie de vos amis quand il se connecte
+Cliquer simplement sur le popup pour le fermer
+
+DESCRIPTION (English)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+PlopIamConnected is a small plugin to have an enlarged view of your friends when it connects
+Simply click on the popup to close it
+
+DESCRIPTION (Deutsche)  
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+PlopIamConnected ist ein kleines Plugin, mit dem Sie Ihre Freunde beim Herstellen einer Verbindung vergrossern konnen
+Klicken Sie einfach auf das Popup, um es zu schliessen
+
+LIST OF ALL COMMANDS
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+(French)
+Raccourci disponible
+/Plop show - montre la fenetre
+/Plop hide - cache la fenetre
+/Plop list affiche tous les amis
+/Plop clearall Efface tous les amis
+/Plop clear naomdelami - efface naomdelami
+/Plop toggle - Affiche ou cache la fenetre
+
+(English)
+Shortcut available
+/Plop show - show the window
+/Plop hide - hide the window
+/Plop list show all friends
+/Plop clearall delete all the friends
+/Plop clear friendname delete - friendname
+/Plop toggle - Display or hide the window
+
+(Deutsche)
+Verknupfung verfugbar
+/Plop show - zeige das Fenster
+/Plop Hide - Verstecke das Fenster
+/Plop list zeige allen Freunden
+/Plop clearall losche alle Freunde
+/Plop clear freundname - losche freundname
+/Plop toggle - Fenster ein-oder ausblenden
+</Description>
+  <InfoUrl>http://www.lotrointerface.com/downloads/info1136</InfoUrl>
+  <DownloadUrl>http://www.lotrointerface.com/downloads/download1136</DownloadUrl>
+  <Descriptors>
+    <descriptor>Homeopatix\PlopIamConnected.plugin</descriptor>
+  </Descriptors>
+</PluginConfig>
