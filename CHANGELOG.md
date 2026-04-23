@@ -14,6 +14,7 @@ Addition of a command line to activate the alt key for moving the icon
 ### 🇩🇪 Deutsch
 Hinzufügen einer Befehlszeile zum Aktivieren der Alt-Taste zum Verschieben des Symbols
 
+------------------------------------------------------------------------
 
 ## V1.02
 ### 🇫🇷 Français
@@ -25,6 +26,7 @@ Fix a backup bug that affected all my plugins (damn, copy and paste)
 ### 🇩🇪 Deutsch
 Behebung eines Backup-Fehlers, der alle meine Plugins betraf (verdammt, kopieren und einfügen)
 
+------------------------------------------------------------------------
 
 ## V1.01
 ### 🇫🇷 Français
@@ -36,6 +38,7 @@ Display the list of friends in the window
 ### 🇩🇪 Deutsch
 Zeigen Sie die Liste der Freunde im Fenster an
 
+------------------------------------------------------------------------
 
 ## V1.0
 
